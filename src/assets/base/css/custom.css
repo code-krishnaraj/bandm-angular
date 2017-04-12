@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'indian_rupeeregular';
+    src: url('../../../fonts/indianrupee-webfont.eot');
+    src: url('../../../fonts/indianrupee-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/indianrupee-webfont.woff2') format('woff2'),
+         url('../../../fonts/indianrupee-webfont.woff') format('woff'),
+         url('../../../fonts/indianrupee-webfont.ttf') format('truetype'),
+         url('../../../fonts/indianrupee-webfont.svg#indian_rupeeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.bg-search-area {
+	background:url(../../../images/bg-serch-area.jpg) center top;
+	padding: 60px 0 !important;
+}
+.pets_selection {
+	background:rgba(0,0,0,0.5);
+	padding:20px;
+}
+
+ul.papees_list {
+    border: medium none;
+    display: block;
+    float: left;
+    height: auto !important;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background: #fff;
+	border:1px solid #ccc;
+}
+
+ul.papees_list li, ul.papees_list li:last-child {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none !important;
+    display: inline-block;
+    float: left;
+    height: 20px !important;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 100%;
+}
+ul.papees_list li span.icon {
+    float: left;
+    width: auto;
+}
+
+ul.papees_list li span.icon img {
+    float: left;
+    margin: 6px 10px 0 0;
+    width: 15px;
+}
+
+ul.papees_list li span.t1 {
+    background: rgba(0, 0, 0, 0) url(../../../images/dots.png) no-repeat scroll 100% 50%;
+    color: #000 !important;
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 10px 0 0;
+    text-align: left;
+    width: 100px;
+}
+
+ul.papees_list li span.t2 {
+    color: #000 !important;
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 0 0 10px;
+    width: auto;
+}
+
+.c-price span i {
+    color: red;
+	font-size: 14px;
+	width:10px
+}
+.c-price i, .c-product-price i {
+    color: #5c6873;
+    display: inline-block;
+    float: none;
+    font-family: "indian_rupeeregular";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    width: 20px;
+}
+.c-product-price i {
+	font-size: 28px;
+}
+.bg-size-cov {
+background-size: cover !important;
+}
+
+.c-top-menu, #top-search {
+	display:block;
+}
+@media only screen and (max-width : 767px) {
+	.c-top-menu, #top-search {
+	display:none !important;
+}
+}
+.height40 {
+	height:40px !important;
+}
+.margin-b-0 {
+	margin-bottom:0 !important;
+}
+.no-padding {
+	padding:0 !important;
+}
+.c-font-18 {
+	font-size:18px !important;
+}
+.c-font-16-n {
+	font-size:16px !important;
+	width:12px !important;
+	
+}
+
+.menu_sec {
+    background:#2c3137 none repeat scroll 0 0;
+    height: auto;
+    padding: 20px 0 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000000;
+}
+
+.menu_sec .s_menu {
+    float: left !important;
+    height: auto !important;
+    margin: 0 2% 2% !important;
+    width: 46% !important;
+}
+
+.menu_sec .sec1 {
+    float: left !important;
+    height: auto !important;
+    margin: 0 2% 2% 0 !important;
+    width: 48% !important;
+}
+
+.menu_sec .sec1 h4 {
+    color: #fff;
+    display: block;
+    float: left !important;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    height: auto;
+    margin: 0 0 10px;
+    text-align: left;
+    width: 100%;
+	text-transform:uppercase;
+}
+
+.menu_sec .sec1 .m1 {
+    color: #fff;
+    display: block;
+    float: left;
+    height: auto;
+    margin: 0 0 10px;
+    text-align: left;
+    width: 100%;
+}
+.menu_sec .sec1 .m1 a {
+    float: left;
+    height: auto;
+    text-align: left !important;
+    text-transform: capitalize !important;
+    width: 100% !important;
+    word-break: break-all;
+    word-wrap: break-word;
+	font-size:14px;
+	color:#ccc;
+	padding:10px 0;
+	
+}
+.menu_sec .sec1 .m1 a:hover {
+	color:#f7941e !important;
+	text-decoration:none;
+}
+.menu_sec img {
+    height: auto;
+    margin-right: 2%;
+    max-width: 48%;
+}
+.c-layout-breadcrumbs-n .c-page-breadcrumbs.c-pull-left {
+    float: left;
+}
+.c-layout-breadcrumbs-n .c-page-breadcrumbs {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.c-layout-breadcrumbs-n {
+    padding: 5px 0;
+}
+.c-layout-breadcrumbs-n .c-page-breadcrumbs > li, .c-layout-breadcrumbs-n .c-page-breadcrumbs > li > a {
+    color: #7f8c97;
+    font-size: 16px;
+    font-weight: 400;
+}
+.c-layout-breadcrumbs-n .c-page-breadcrumbs > li {
+    display: inline-block;
+    margin: 0;
+    padding: 8px 4px;
+}
+.alert-default {
+    background-color: #fff;
+    border-color: #999;
+    color: #333;
+	
+}
+.alert-default.active {
+    background-color: #f78d0f;
+    border-color: #ce7306;
+	
+}
+.alert-default.active a {
+    color: #fff;
+	
+}
+.alert-default.active a:hover {
+    color: #CCC;
+	
+}
+.margin-right5 {
+	margin-right:5px;
+}
+.col-md-4-a {
+    width: 32.9%;
+	float:left;
+}
+.c-padding-30 {
+    padding: 30px 0 0 !important;
+}
+.margin-b-25 {
+    margin-bottom: 25px !important;
+}
+
+/*#guest, #reg {
+    display: none;
+}
+div.shown { 
+    display:block; 
+}*/
+#guest_reg input {
+	margin-right:5px;
+}
+#guest_reg label {
+	margin-right:15px;
+}
